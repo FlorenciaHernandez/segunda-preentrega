@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    background-color: white;
+    font-family: 'Work Sans', sans-serif;
+    color: black;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+
+.logo {
+    font-family: 'Abril Fatface', cursive;
+    background-color: #ecdaf5;
+    font-size: 1.2rem;
+    margin-top: 5%;
+    padding: 0 1vw 0 1vw;
+}
+
+.miNav {
+    border-bottom: 1px solid black;
+}
+
+.nav-item a {
+    color: rgb(82, 82, 82);
+    background-image: linear-gradient(to right, #e0c8eb, #e0c6d0, #f1bdd0);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+} 
+.nav-item a:hover {
+    color: rgb(148, 148, 148);
+    background-size: 100% 2px;
+}
+
+
+
+li.nav-item {
+    margin: -1% 2% 0 0;
+    font-weight: 500;
+    font-size: 0.95rem;
+    font-family: 'Work Sans', sans-serif !important;
+}
+
+.navbar-light .navbar-toggler {
+    color: #b5b6de;
+}
+
+.navbar-light .navbar-toggler:focus {
+    box-shadow: 0 0 0 0.15rem;
+}
+
+
+
+.iconCarrito {
+    font-size: 40px;
+}
+
+footer {
+    padding: 1%;
+    background-color: white;
+    border-top: solid 1px black;
+}
+
+.contenedorFooter {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+    margin-top: 2.5%;
+}
+
+.elementosFooter h2 {
+    font-size: 1.20rem;
+    font-weight: 600;
+    margin-bottom: 10%;
+    text-decoration: underline 3.5px rgb(248, 219, 238);
+    text-underline-offset: 4px;
+}
+.elementosFooter p {
+    font-weight: 400;
+    color: rgb(66, 66, 66);
+    margin-top: 5%;
+    margin-bottom: -2%;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+.newsletterFooter {
+    display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	border-bottom: 1px solid #545454;
+	min-width: 250px;
+	width: 100%;
+}
+
+.mail input {
+	border: 0;
+	padding: 15px 0;
+	font-size: 15px;
+	color: black;
+	background-color: transparent;
+	text-align: left;
+	width: 100%;
+	outline: none;
+
+}
+
+.iconContacto {
+    color: rgb(114, 111, 111);
+}
+
+
+.inputBuscar {
+    margin: 5%;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    border: 1px solid #545454;
+    width: 25%;
+
+}
+
+.buscador input {
+    border: 0;
+    padding: 15px 0;
+    font-size: 15px;
+    color: black;
+    background-color: transparent;
+    text-align: left;
+
+    outline: none;
+}
+
+button {
+    border: 0;
+    background-color: transparent;
+}
+
+.imgBanner {
+    width: 100%;
+    margin-top: 5%;
+}
+
+
+
+#contenedorProductos {
+   margin: 5% 3%
+
+}
+
+.divPadre {
+    width: 300px;
+    height: 400px;
+    margin: 4% 1%;
+} 
+
+
+.card {
+
+    background-color: white;
+    box-shadow: 0px 1px 10px rgb(0 0 0 / 20%);
+    transition: all 400ms ease;
+    width: 300px;
+    height: 400px;
+    margin: 5%
+}
+
+
+.tituloProd {
+    margin: 6% 0 0 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem !important;
+
+
+}
+
+.textoProd {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.95rem;
+    padding: 5%;
+    font-weight: 500;
+}
+
+
+.btnProd {
+    display: inline-flex;
+    background-color: rgb(237, 226, 232);
+    color: rgb(0, 0, 0);
+    border-radius: 2px;
+    padding: 3%;
+    width: 100%;
+    justify-content: center;
+    font-size: 0.80rem;
+    font-weight: 400;
+    width: 50%;
+    margin-left: 25%;
+
+
+} 
+
+.btnCarrito {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.btnCarrito button {
+    background-color: rgb(248, 219, 238);
+    padding: 1%;
+    border: 1px solid rgb(0, 0, 0)
+}
+
+.carrito {
+   
+    padding: 1%;
+    
+}
+
+
+.flexRowCarrito {
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5%;
+    padding-bottom:  1%;
+    font-weight: 300;
+    font-size: 0.95rem;
+    border-bottom: 1px solid rgb(45, 45, 45);
+
+}
+
+.flexRowCarrito img {
+    width: 15vw;
+}
+
+.btnEliminar {
+    padding: 1%;
+    background-color: rgb(248, 219, 238);
+    border-radius: 5px;
+}
